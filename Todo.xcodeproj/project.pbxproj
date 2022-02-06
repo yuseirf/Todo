@@ -13,6 +13,8 @@
 		33F9144527AFFE58000BE7D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F9144427AFFE58000BE7D6 /* Preview Assets.xcassets */; };
 		33F9144727AFFE58000BE7D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9144627AFFE58000BE7D6 /* Persistence.swift */; };
 		33F9144A27AFFE59000BE7D6 /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33F9144827AFFE59000BE7D6 /* Todo.xcdatamodeld */; };
+		33F9145227B019FF000BE7D6 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145127B019FF000BE7D6 /* CategoryImage.swift */; };
+		33F9145427B02233000BE7D6 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145327B02233000BE7D6 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		33F9144427AFFE58000BE7D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33F9144627AFFE58000BE7D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		33F9144927AFFE59000BE7D6 /* Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo.xcdatamodel; sourceTree = "<group>"; };
+		33F9145027B00677000BE7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		33F9145127B019FF000BE7D6 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
+		33F9145327B02233000BE7D6 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +60,11 @@
 		33F9143C27AFFE51000BE7D6 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				33F9145027B00677000BE7D6 /* Info.plist */,
 				33F9143D27AFFE51000BE7D6 /* TodoApp.swift */,
 				33F9143F27AFFE51000BE7D6 /* ContentView.swift */,
+				33F9145127B019FF000BE7D6 /* CategoryImage.swift */,
+				33F9145327B02233000BE7D6 /* CheckBox.swift */,
 				33F9144127AFFE58000BE7D6 /* Assets.xcassets */,
 				33F9144627AFFE58000BE7D6 /* Persistence.swift */,
 				33F9144827AFFE59000BE7D6 /* Todo.xcdatamodeld */,
@@ -145,7 +153,9 @@
 			files = (
 				33F9144727AFFE58000BE7D6 /* Persistence.swift in Sources */,
 				33F9144027AFFE51000BE7D6 /* ContentView.swift in Sources */,
+				33F9145427B02233000BE7D6 /* CheckBox.swift in Sources */,
 				33F9143E27AFFE51000BE7D6 /* TodoApp.swift in Sources */,
+				33F9145227B019FF000BE7D6 /* CategoryImage.swift in Sources */,
 				33F9144A27AFFE59000BE7D6 /* Todo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +290,10 @@
 				DEVELOPMENT_TEAM = F5H29MV6A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Todo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,9 +320,10 @@
 				DEVELOPMENT_TEAM = F5H29MV6A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Todo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
