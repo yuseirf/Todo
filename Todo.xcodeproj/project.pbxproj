@@ -19,6 +19,7 @@
 		33F9145B27B0F72D000BE7D6 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145A27B0F72D000BE7D6 /* UserView.swift */; };
 		33F9145D27B10072000BE7D6 /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145C27B10072000BE7D6 /* TodoEntity+Extension.swift */; };
 		33F9145F27B106D7000BE7D6 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145E27B106D7000BE7D6 /* CategoryView.swift */; };
+		33F9146127B10B57000BE7D6 /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9146027B10B57000BE7D6 /* QuickNewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		33F9145A27B0F72D000BE7D6 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		33F9145C27B10072000BE7D6 /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 		33F9145E27B106D7000BE7D6 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		33F9146027B10B57000BE7D6 /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				33F9143D27AFFE51000BE7D6 /* TodoApp.swift */,
 				33F9143F27AFFE51000BE7D6 /* ContentView.swift */,
 				33F9145E27B106D7000BE7D6 /* CategoryView.swift */,
+				33F9146027B10B57000BE7D6 /* QuickNewTask.swift */,
 				33F9145127B019FF000BE7D6 /* CategoryImage.swift */,
 				33F9145327B02233000BE7D6 /* CheckBox.swift */,
 				33F9145A27B0F72D000BE7D6 /* UserView.swift */,
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33F9144727AFFE58000BE7D6 /* Persistence.swift in Sources */,
+				33F9146127B10B57000BE7D6 /* QuickNewTask.swift in Sources */,
 				33F9145727B0F571000BE7D6 /* Color+Extension.swift in Sources */,
 				33F9144027AFFE51000BE7D6 /* ContentView.swift in Sources */,
 				33F9145B27B0F72D000BE7D6 /* UserView.swift in Sources */,
