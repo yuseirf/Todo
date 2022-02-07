@@ -15,6 +15,7 @@
 		33F9144A27AFFE59000BE7D6 /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33F9144827AFFE59000BE7D6 /* Todo.xcdatamodeld */; };
 		33F9145227B019FF000BE7D6 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145127B019FF000BE7D6 /* CategoryImage.swift */; };
 		33F9145427B02233000BE7D6 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145327B02233000BE7D6 /* CheckBox.swift */; };
+		33F9145727B0F571000BE7D6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9145627B0F571000BE7D6 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		33F9145027B00677000BE7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		33F9145127B019FF000BE7D6 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 		33F9145327B02233000BE7D6 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		33F9145627B0F571000BE7D6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		33F9143C27AFFE51000BE7D6 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				33F9145527B0F54B000BE7D6 /* Extension */,
 				33F9145027B00677000BE7D6 /* Info.plist */,
 				33F9143D27AFFE51000BE7D6 /* TodoApp.swift */,
 				33F9143F27AFFE51000BE7D6 /* ContentView.swift */,
@@ -79,6 +82,14 @@
 				33F9144427AFFE58000BE7D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33F9145527B0F54B000BE7D6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				33F9145627B0F571000BE7D6 /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33F9144727AFFE58000BE7D6 /* Persistence.swift in Sources */,
+				33F9145727B0F571000BE7D6 /* Color+Extension.swift in Sources */,
 				33F9144027AFFE51000BE7D6 /* ContentView.swift in Sources */,
 				33F9145427B02233000BE7D6 /* CheckBox.swift in Sources */,
 				33F9143E27AFFE51000BE7D6 /* TodoApp.swift in Sources */,
